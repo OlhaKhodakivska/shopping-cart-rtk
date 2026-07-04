@@ -1,0 +1,35 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color: #f8fafc;
+  background: #111827;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background:
+    linear-gradient(90deg, rgba(8, 12, 22, 0.88), rgba(8, 12, 22, 0.56)),
+    url('./assets/tech-background.svg') center / cover fixed;
+}
+
+button {
+  border: 1px solid #f8fafc;
+  border-radius: 6px;
+  background: #f8fafc;
+  color: #111827;
+  cursor: pointer;
+  font: inherit;
+}
+
+button:hover {
+  background: #dbeafe;
+}

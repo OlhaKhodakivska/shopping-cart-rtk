@@ -1,0 +1,27 @@
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  min-height: 100vh;
+  padding: 2rem 1rem;
+  font-family: sans-serif;
+}
+.header {
+  border-bottom: 1px solid rgba(248, 250, 252, 0.28);
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+}
+.header h1 {
+  margin: 0;
+  color: #ffffff;
+  text-shadow: 0 2px 18px rgba(0, 0, 0, 0.45);
+}
+.main {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 2rem;
+}
+@media (max-width: 768px) {
+  .main {
+    grid-template-columns: 1fr;
+  }
+}
